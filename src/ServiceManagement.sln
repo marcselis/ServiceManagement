@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceManagement.Domain", "ServiceManagement.Domain\ServiceManagement.Domain.csproj", "{74CB7C2D-ED08-4502-91CF-FBC428C14F2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceManagement.Api", "ServiceManagement.Api\ServiceManagement.Api.csproj", "{9B44BECA-9EC1-4640-A1C4-FD2F09D758DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74CB7C2D-ED08-4502-91CF-FBC428C14F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CB7C2D-ED08-4502-91CF-FBC428C14F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CB7C2D-ED08-4502-91CF-FBC428C14F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CB7C2D-ED08-4502-91CF-FBC428C14F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B44BECA-9EC1-4640-A1C4-FD2F09D758DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B44BECA-9EC1-4640-A1C4-FD2F09D758DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B44BECA-9EC1-4640-A1C4-FD2F09D758DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B44BECA-9EC1-4640-A1C4-FD2F09D758DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA15243-31FC-4C64-98E0-64923F321EBE}
+	EndGlobalSection
+EndGlobal

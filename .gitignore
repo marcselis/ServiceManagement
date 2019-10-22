@@ -328,3 +328,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Editor backup files
+*.bak
+/src/ServiceManagement.Api/ServiceManagement.Api.xml
+/src/ServiceManagement.Domain/ServiceManagement.Domain.xml
