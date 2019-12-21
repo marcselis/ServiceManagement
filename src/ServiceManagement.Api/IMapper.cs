@@ -10,13 +10,15 @@ namespace ServiceManagement.Api
     internal interface IMapper<in TIn, out TOut> where TIn : class where TOut : class
     {
         /// <summary>
-        /// Maps the input object to the type. 
+        /// Maps the input object to the type.
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
         TOut? Map(TIn? input);
+
         /// <summary>
-        /// Maps an <see cref="IEnumerable{TIn}"/> with input type instances to an <see cref="IEnumerable{TOut}"/> of output types.
+        /// Maps an <see cref="IEnumerable{TIn}"/> with input type instances to an <see
+        /// cref="IEnumerable{TOut}"/> of output types.
         /// </summary>
         /// <param name="input">The object to map</param>
         /// <returns>The mapped result</returns>

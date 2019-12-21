@@ -12,6 +12,7 @@ namespace ServiceManagement.Api
         /// </summary>
         [Required]
         public string Name { get; set; } = "";
+
         /// <summary>
         /// The version of the package that was used
         /// </summary>

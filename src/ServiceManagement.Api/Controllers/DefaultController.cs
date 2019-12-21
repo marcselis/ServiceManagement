@@ -1,6 +1,6 @@
-﻿using System.Net;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using System.Net.Http;
-using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceManagement.Api
 {
@@ -33,6 +33,5 @@ namespace ServiceManagement.Api
                 return Ok(response);
             }
         }
-
     }
 }
